@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    tools:ignore="HardcodedText"
+    android:theme="@style/moj_styl">
+    <group
+        android:checkableBehavior="single"
+        android:background="@color/black">   <!-- Zablokowanie wielokrotnego wyboru -->
+
+        <item
+            android:id="@+id/wybor1"
+            android:title="HOME"
+            android:icon="@drawable/baseline_home_24"
+             />
+        <item
+            android:id="@+id/wybor2"
+            android:title="PIERWSZE KROKI"
+            android:icon="@drawable/baseline_download_24"
+            />
+        <item
+            android:id="@+id/wybor3"
+            android:title="EMULATOR"
+            android:icon="@drawable/baseline_phonelink_setup_24"
+            />
+        <item
+            android:id="@+id/wybor4"
+            android:title="LAYOUTY"
+            android:icon="@drawable/baseline_table_chart_24"
+            />
+        <item
+            android:id="@+id/wybor5"
+            android:title="UI, ATRYBUTY"
+            android:icon="@drawable/baseline_brush_24"
+            />
+        <item
+            android:id="@+id/wybor6"
+            android:title="INTENCJE,FRAGMENTY"
+            android:icon="@drawable/baseline_class_24"
+            />
+        <item
+            android:id="@+id/wybor7"
+            android:title="NAWIGACJA"
+            android:icon="@drawable/baseline_navigation_24"
+            />
+        <item
+            android:id="@+id/wybor8"
+            android:title="BINDOWANIE AKCJI, LOGIKA"
+            android:icon="@drawable/baseline_build_circle_24"
+            />
+        <item
+            android:id="@+id/wybor9"
+            android:title="RECYCLER VIEW"
+            android:icon="@drawable/baseline_recycling_24"
+            />
+        <item
+            android:id="@+id/wybor10"
+            android:title="LAB 1"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor11"
+            android:title="LAB 2"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor12"
+            android:title="LAB 3"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor13"
+            android:title="LAB 4"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor14"
+            android:title="LAB 5"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor15"
+            android:title="LAB 6 - przewodnik"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor16"
+            android:title="LAB 6 - zadania"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor17"
+            android:title="LAB 7"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor18"
+            android:title="LAB 8 - przewodnik"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor19"
+            android:title="LAB 8"
+            android:icon="@drawable/baseline_android_24"
+            />
+        <item
+            android:id="@+id/wybor20"
+            android:title="SPRAWDŹ SIĘ!"
+            android:icon="@drawable/baseline_question_mark_24"
+            />
+    </group>
+</menu>

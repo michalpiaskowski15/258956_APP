@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/szary"
+    tools:context=".Fragment13"
+    tools:ignore="HardcodedText"
+    android:id="@+id/scroll12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/niebieski"
+            android:textSize="40sp"
+            android:text="LABORATORIUM 5"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/android"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:layout_marginStart="10sp"
+            android:padding="16dp"
+            android:text="Kalkulator BMI"
+            android:id="@+id/F13R1"
+            >
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/pomarancz"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            android:padding="16dp"
+            android:text="Kalkulator PPK"
+            android:id="@+id/F13R2">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/niebieski"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginVertical="20sp"
+            android:layout_marginStart="10sp"
+            android:padding="16dp"
+            android:text=""
+            android:id="@+id/F12R3">
+        </Button>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/F13R1T"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:text="Kalkulator BMI"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/niebieski"
+            android:id="@+id/F13R1T1"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:text="\u2023 Aplikacja powinna obliczać BMI na podstawie wzrostu oraz wagi \n \n \u2023 Nie ma narzuconego wyglądu aplikacji – ćwiczenie polega na zmianie podstawowego UI według własnego uznania \n \n \u2023 Im więcej zmian i bardziej dopracowana graficznie aplikacja tym lepiej"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/F13R2T"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:text="Kalkulator PPK"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/android"
+            android:id="@+id/F13R2T1"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:text="\u2023 W kalkulatorze należy mieć miejsce na wpisanie pensji brutto, procentu odkładanego przez pracownika oraz pracodawcę, ilości lat pozostałych do emerytury \n \n \u2023 Dodatkowo można dodać pole na zaznaczenie dopłat przez państwo raz w roku \n \n \u2023 Do podstawowej aplikacji można dodać przewidywaną stopę zwrotu \n \n \u2023 Na podstawie wpisanych danych aplikacja powinna wyliczyć zebraną kwotę na początek emerytury \n \n \u2023 Można również dodać przewidywany czas życia na emeryturze i wyliczyć ile miesięcznie będzie wynosiła wypłata w ramach PPK"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+

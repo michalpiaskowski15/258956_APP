@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="moj_styl" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/szary_pom</item>
+        <item name="colorPrimaryVariant">@color/szary</item>
+        <item name="android:statusBarColor">@color/niebieski</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="fontFamily">@font/font</item>
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+    <style name="Theme.Test_Layoutu1" parent="moj_styl"/>
+</resources>

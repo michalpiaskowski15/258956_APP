@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@color/szary"
+    android:theme="@style/moj_styl"
+    android:gravity="bottom"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_android_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KATALOG"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="6dp"
+        android:textAllCaps="true"
+        android:textColor="@color/pomarancz"
+        android:textStyle="bold"/>
+</LinearLayout>

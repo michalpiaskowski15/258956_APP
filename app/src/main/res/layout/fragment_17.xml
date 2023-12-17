@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/szary"
+    tools:context=".Fragment17"
+    tools:ignore="HardcodedText"
+    android:id="@+id/scroll16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/niebieski"
+            android:textSize="40sp"
+            android:text="LABORATORIUM 8 - przewodnik"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/android"
+            android:textSize="20sp"
+            android:layout_marginVertical="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Zasoby dotyczące Lab 8 znajdują się poniżej:"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/niebieski"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginVertical="20sp"
+            android:layout_marginStart="10sp"
+            android:padding="16dp"
+            android:text="Intencje, Fragmenty"
+            android:id="@+id/F17R1O1">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/pomarancz"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginVertical="20sp"
+            android:layout_marginStart="10sp"
+            android:padding="16dp"
+            android:text="Nawigacja"
+            android:id="@+id/F17R1O2">
+        </Button>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
